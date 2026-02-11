@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+    <PackageJsonName Condition="$(PackageJsonName) == ''">nextjs-portfolio</PackageJsonName>
+    <PackageJsonVersion Condition="$(PackageJsonVersion) == ''">1.0.0</PackageJsonVersion>
+    <PackageJsonPrivate Condition="$(PackageJsonPrivate) == ''">true</PackageJsonPrivate>
+    <PackageJsonScriptsDev Condition="$(PackageJsonScriptsDev) == ''">next dev</PackageJsonScriptsDev>
+    <PackageJsonScriptsBuild Condition="$(PackageJsonScriptsBuild) == ''">next build</PackageJsonScriptsBuild>
+    <PackageJsonScriptsExport Condition="$(PackageJsonScriptsExport) == ''">next export</PackageJsonScriptsExport>
+    <PackageJsonScriptsStart Condition="$(PackageJsonScriptsStart) == ''">next start</PackageJsonScriptsStart>
+    <PackageJsonScriptsPredeploy Condition="$(PackageJsonScriptsPredeploy) == ''">next build &amp;&amp; next export</PackageJsonScriptsPredeploy>
+    <PackageJsonScriptsDeploy Condition="$(PackageJsonScriptsDeploy) == ''">gh-pages -d out</PackageJsonScriptsDeploy>
+    <PackageJsonDependenciesNext Condition="$(PackageJsonDependenciesNext) == ''">13.5.6</PackageJsonDependenciesNext>
+    <PackageJsonDependenciesReact Condition="$(PackageJsonDependenciesReact) == ''">18.2.0</PackageJsonDependenciesReact>
+    <PackageJsonDependenciesReactDom Condition="$(PackageJsonDependenciesReactDom) == ''">18.2.0</PackageJsonDependenciesReactDom>
+    <PackageJsonDependenciesReactEasyEmoji Condition="$(PackageJsonDependenciesReactEasyEmoji) == ''">^3.0.0</PackageJsonDependenciesReactEasyEmoji>
+    <PackageJsonDevdependenciesTypesNode Condition="$(PackageJsonDevdependenciesTypesNode) == ''">25.2.3</PackageJsonDevdependenciesTypesNode>
+    <PackageJsonDevdependenciesTypesReact Condition="$(PackageJsonDevdependenciesTypesReact) == ''">19.2.14</PackageJsonDevdependenciesTypesReact>
+    <PackageJsonDevdependenciesTypesReactDom Condition="$(PackageJsonDevdependenciesTypesReactDom) == ''">18.2.7</PackageJsonDevdependenciesTypesReactDom>
+    <PackageJsonDevdependenciesFramerMotion Condition="$(PackageJsonDevdependenciesFramerMotion) == ''">10.12.16</PackageJsonDevdependenciesFramerMotion>
+    <PackageJsonDevdependenciesAutoprefixer Condition="$(PackageJsonDevdependenciesAutoprefixer) == ''">10.4.14</PackageJsonDevdependenciesAutoprefixer>
+    <PackageJsonDevdependenciesGhPages Condition="$(PackageJsonDevdependenciesGhPages) == ''">5.0.0</PackageJsonDevdependenciesGhPages>
+    <PackageJsonDevdependenciesPostcss Condition="$(PackageJsonDevdependenciesPostcss) == ''">8.4.21</PackageJsonDevdependenciesPostcss>
+    <PackageJsonDevdependenciesTailwindcss Condition="$(PackageJsonDevdependenciesTailwindcss) == ''">3.4.7</PackageJsonDevdependenciesTailwindcss>
+    <PackageJsonDevdependenciesTypescript Condition="$(PackageJsonDevdependenciesTypescript) == ''">5.9.3</PackageJsonDevdependenciesTypescript>
+  </PropertyGroup>
+</Project>
