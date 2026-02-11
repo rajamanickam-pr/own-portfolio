@@ -13,7 +13,6 @@
     <PackageJsonDependenciesNext Condition="$(PackageJsonDependenciesNext) == ''">13.5.6</PackageJsonDependenciesNext>
     <PackageJsonDependenciesReact Condition="$(PackageJsonDependenciesReact) == ''">18.2.0</PackageJsonDependenciesReact>
     <PackageJsonDependenciesReactDom Condition="$(PackageJsonDependenciesReactDom) == ''">18.2.0</PackageJsonDependenciesReactDom>
-    <PackageJsonDependenciesReactEasyEmoji Condition="$(PackageJsonDependenciesReactEasyEmoji) == ''">^3.0.0</PackageJsonDependenciesReactEasyEmoji>
     <PackageJsonDevdependenciesTypesNode Condition="$(PackageJsonDevdependenciesTypesNode) == ''">25.2.3</PackageJsonDevdependenciesTypesNode>
     <PackageJsonDevdependenciesTypesReact Condition="$(PackageJsonDevdependenciesTypesReact) == ''">19.2.14</PackageJsonDevdependenciesTypesReact>
     <PackageJsonDevdependenciesTypesReactDom Condition="$(PackageJsonDevdependenciesTypesReactDom) == ''">18.2.7</PackageJsonDevdependenciesTypesReactDom>
