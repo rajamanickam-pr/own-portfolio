@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="Shlok Labs logo placeholder">
+  <rect width="128" height="128" rx="16" fill="#0ea5a4" />
+  <circle cx="36" cy="40" r="18" fill="#ffffff" opacity="0.12" />
+  <text x="50%" y="54%" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="52" font-weight="700" fill="#ffffff">SL</text>
+</svg>
