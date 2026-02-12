@@ -150,7 +150,7 @@ export default function WhatIDo() {
         <section id="what-i-do" className="section bg-white">
             <div className="container md:grid md:grid-cols-2 gap-8 items-start">
                 <div className="hidden md:flex items-center justify-center">
-                    <img src="/images/illustration-dev.svg" alt="developer illustration" className="max-w-full h-auto" />
+                    <img src="./images/illustration-dev.svg" alt="developer illustration" className="max-w-full h-auto" />
                 </div>
 
                 <div>

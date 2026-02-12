@@ -3,12 +3,12 @@
     title: "Your Name - Portfolio",
     description: "A passionate .NET & Azure Software Engineer 🚀 with 10+ years of experience building scalable enterprise web applications and cloud-native solutions using ASP.NET Core, C#, SQL Server, and Microsoft Azure, along with exploring AI-driven application capabilities using Semantic Kernel and LLM integrations.",
     email: "rajamanickam.rp@gmail.com",
-    resume: "/resume.pdf",
-    avatar: "/images/profile.jpg",
+    resume: "./resume.pdf",
+    avatar: "./images/profile.jpg",
     nav: [
         { href: "#about", label: "About" },
         { href: "#projects", label: "Projects" },
-        { href: "#skills", label: "Skills" },
+        //{ href: "#skills", label: "Skills" },
         { href: "#contact", label: "Contact" }
     ],
     sections: {
@@ -34,8 +34,7 @@
     socials: [
         { id: "github", label: "GitHub", href: "https://github.com/your-username" },
         { id: "linkedin", label: "LinkedIn", href: "https://linkedin.com/in/your-username" },
-        { id: "twitter", label: "Twitter", href: "https://twitter.com/your-username" },
-        { id: "mail", label: "Email", href: "mailto:you@example.com" }
+        { id: "mail", label: "Email", href: "rajamanickam.rp@gmail.com" }
     ]
 }
 

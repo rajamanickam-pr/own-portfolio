@@ -9,28 +9,28 @@ const whatIDo = {
                 { id: 'html5', label: 'HTML5', fa: 'fab fa-html5' },
                 { id: 'css3', label: 'CSS3', fa: 'fab fa-css3-alt' },
                 { id: 'js', label: 'JavaScript', fa: 'fab fa-js' },
-                { id: 'react', label: 'React', src: '/images/skills/react.svg' },
-                { id: 'jquery', label: 'jQuery', src: '/images/skills/jquery.svg' },
-                { id: 'sass', label: 'Sass', src: '/images/skills/sass.svg' }
+                { id: 'react', label: 'React', src: './images/skills/react.svg' },
+                { id: 'jquery', label: 'jQuery', src: './images/skills/jquery.svg' },
+                { id: 'sass', label: 'Sass', src: './images/skills/sass.svg' }
             ]
         },
         {
             id: 'backend',
             title: 'Backend & Runtimes',
             icons: [
-                { id: 'nodejs', label: 'Node.js', src: '/images/skills/nodejs.svg' },
+                { id: 'nodejs', label: 'Node.js', src: './images/skills/nodejs.svg' },
                 { id: 'npm', label: 'npm', fa: 'fab fa-npm' },
-                { id: 'dotnet', label: '.NET', src: '/images/skills/dotnet.svg' },
-                { id: 'RESTful APIs', label: 'RESTful APIs', src: '/images/skills/REST.svg' },
-                { id: 'csharp', label: 'C#', src: '/images/skills/csharp.svg' }
+                { id: 'dotnet', label: '.NET', src: './images/skills/dotnet.svg' },
+                { id: 'RESTful APIs', label: 'RESTful APIs', src: './images/skills/REST.svg' },
+                { id: 'csharp', label: 'C#', src: './images/skills/csharp.svg' }
             ]
         },
         {
             id: 'databases',
             title: 'Databases',
             icons: [
-                { id: 'postgres', label: 'Postgres', src: '/images/skills/postgres.svg' },
-                { id: 'mysql', label: 'MySQL', src: '/images/skills/mysql.svg' },
+                { id: 'postgres', label: 'Postgres', src: './images/skills/postgres.svg' },
+                { id: 'mysql', label: 'MySQL', src: './images/skills/mysql.svg' },
                 { id: 'sql', label: 'SQL', fa: 'fas fa-database' }
             ]
         },
@@ -39,37 +39,37 @@ const whatIDo = {
             title: 'Containers',
             icons: [
                 { id: 'docker', label: 'Docker', fa: 'fab fa-docker' },
-                { id: 'kubernetes', label: 'Kubernetes', src: '/images/skills/kubernates.svg' }
+                { id: 'kubernetes', label: 'Kubernetes', src: './images/skills/kubernates.svg' }
             ]
         },
         {
             id: 'cloud',
             title: 'Cloud & Infra',
             icons: [
-                { id: 'azure', label: 'Azure', src: '/images/skills/azure.svg' },
-                { id: 'azure-sql', label: 'Azure SQL', src: '/images/skills/azure-sql.svg' },
-                { id: 'azure-functions', label: 'Azure Functions', src: '/images/skills/azure-functions.svg' },
-                { id: 'azure-storage', label: 'Azure Storage', src: '/images/skills/azure-storage.svg' },
-                { id: 'azure-eventgrid', label: 'Event Grid', src: '/images/skills/azure-eventgrid.svg' },
-                { id: 'azure-insight', label: 'Application Insights', src: '/images/skills/azure-insight.svg' }
+                { id: 'azure', label: 'Azure', src: './images/skills/azure.svg' },
+                { id: 'azure-sql', label: 'Azure SQL', src: './images/skills/azure-sql.svg' },
+                { id: 'azure-functions', label: 'Azure Functions', src: './images/skills/azure-functions.svg' },
+                { id: 'azure-storage', label: 'Azure Storage', src: './images/skills/azure-storage.svg' },
+                { id: 'azure-eventgrid', label: 'Event Grid', src: './images/skills/azure-eventgrid.svg' },
+                { id: 'azure-insight', label: 'Application Insights', src: './images/skills/azure-insight.svg' }
             ]
         },
         {
             id: 'api',
             title: 'APIs & Observability',
             icons: [
-                { id: 'openapi', label: 'OpenAPI', src: '/images/skills/openAPI.svg' },
-                { id: 'opentelemetry', label: 'OpenTelemetry', src: '/images/skills/opentele.svg' }
+                { id: 'openapi', label: 'OpenAPI', src: './images/skills/openAPI.svg' },
+                { id: 'opentelemetry', label: 'OpenTelemetry', src: './images/skills/opentele.svg' }
             ]
         },
         {
             id: 'tools',
             title: 'Dev Tools',
             icons: [
-                { id: 'git', label: 'Git', src: '/images/skills/git.svg' },
-                { id: 'github', label: 'GitHub', src: '/images/skills/github.svg' },
-                { id: 'postman', label: 'Postman', src: '/images/skills/postman.svg' },
-                { id: 'nuget', label: 'NuGet', src: '/images/skills/nuget.svg' }
+                { id: 'git', label: 'Git', src: './images/skills/git.svg' },
+                { id: 'github', label: 'GitHub', src: './images/skills/github.svg' },
+                { id: 'postman', label: 'Postman', src: './images/skills/postman.svg' },
+                { id: 'nuget', label: 'NuGet', src: './images/skills/nuget.svg' }
             ]
         }
     ],
