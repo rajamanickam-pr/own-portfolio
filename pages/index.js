@@ -1,16 +1,22 @@
 import Hero from '../components/Hero'
-import About from '../components/About'
+import WhatIDo from '../components/WhatIDo'
 import ProjectsGrid from '../components/ProjectsGrid'
-import Skills from '../components/Skills'
+import Experience from '../components/Experience'
+import Achievements from '../components/Achievements'
+import About from '../components/About'
 import Contact from '../components/Contact'
 
 export default function Home() {
   return (
     <>
       <Hero />
-      <About />
+      <WhatIDo />
       <ProjectsGrid />
-      <Skills />
+      <Experience />
+      <Achievements />
+      <About />
+      {/* Skills component retained for fallback if needed */}
+      {/* <Skills /> */}
       <Contact />
     </>
   )
